@@ -7,8 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestForceApplication {
 
 	public static void main(String[] args) {
-		System.out.println("My Test");
+		
 		SpringApplication.run(TestForceApplication.class, args);
+		System.out.println("My Test Cherry Pick");
 	}
 
 }
